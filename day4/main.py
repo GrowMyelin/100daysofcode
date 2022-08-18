@@ -1,5 +1,6 @@
 import random
 
+# Rock paper scissors project
 
 rock = '''
     _______
