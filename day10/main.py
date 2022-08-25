@@ -42,7 +42,7 @@ def main():
     operation_symbol = input("Pick an operation from the line above: ")
     answer = operations[operation_symbol](num1,num2)
     print(f"{num1} {operation_symbol} {num2} = {answer}")
-    cont = y
+    cont = 'y'
     while cont == 'y':
         for symbol in operations:
             print(symbol)
